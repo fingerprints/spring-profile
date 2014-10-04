@@ -12,7 +12,6 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @ComponentScan(basePackages = "co.fingerprintsoft.spring.profile")
 @EnableAutoConfiguration
-@EnableConfigurationProperties
 public class App {
     public static void main(String[] args) {
         SpringApplication.run(App.class, args);
