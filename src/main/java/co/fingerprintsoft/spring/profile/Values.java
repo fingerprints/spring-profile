@@ -1,5 +1,6 @@
 package co.fingerprintsoft.spring.profile;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
@@ -18,8 +19,13 @@ import javax.annotation.Resource;
 @ConfigurationProperties
 @Component
 public class Values {
-    private String email;
-    private String sms;
+
+    @Autowired
+    private Email email;
+
+    @Autowired
+    private SMS sms;
+
     private String alert;
 
     public String getAlert() {
@@ -31,18 +37,11 @@ public class Values {
     }
 
     public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
+        return email.getEmail();
     }
 
     public String getSms() {
-        return sms;
+        return sms.getNumber();
     }
 
-    public void setSms(String sms) {
-        this.sms = sms;
-    }
 }

@@ -1,2 +1,4 @@
-sms: devnum
-email: devemail
+sms:
+    number: devnum
+email:
+    email: devemail@fingerprintsoft.co

@@ -1,2 +1,3 @@
-sms: qanum
+sms:
+    number: qanum
 alert: qaprop
