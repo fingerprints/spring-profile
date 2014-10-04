@@ -44,4 +44,12 @@ public class Values {
         return sms.getNumber();
     }
 
+    @Override
+    public String toString() {
+        return "Values{" +
+                "alert='" + alert + '\'' +
+                ", email=" + email.getEmail() +
+                ", sms=" + sms.getNumber() +
+                "} ";
+    }
 }
