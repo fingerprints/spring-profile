@@ -16,8 +16,8 @@ import static junit.framework.Assert.assertEquals;
         App.class
 }
 )
-@ActiveProfiles(profiles = "dev,strange")
-public class AppWithStrangeProfileTest {
+@ActiveProfiles(resolver = StrangeAndSystemActiveProfilesResolver.class)
+public class AppWithStrangeProfileAndResolverTest {
 
     @Autowired
     private Values val;
