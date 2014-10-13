@@ -1,1 +1,6 @@
 *.iml
+*.ipr
+.DS_Store
+target
+.settings
+.project

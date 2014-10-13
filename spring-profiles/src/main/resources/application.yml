@@ -1,0 +1,22 @@
+sms:
+    number: defaultnum
+email:
+    email: defaultemail
+alert: none
+---
+spring:
+    profiles: dev
+sms:
+    number: devnum
+email:
+    email: devemail@fingerprintsoft.co
+---
+spring:
+    profiles: naeem
+email:
+    email: naeem@fingerprintsoft.co
+---
+spring:
+    profiles: strange
+email:
+    email: strange@fingerprintsoft.co

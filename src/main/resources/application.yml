@@ -1,5 +1,0 @@
-sms:
-    number: defaultnum
-email:
-    email: defaultemail
-alert: none

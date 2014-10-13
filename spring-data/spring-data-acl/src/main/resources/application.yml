@@ -1,0 +1,8 @@
+spring:
+    jpa:
+        show-sql: false
+        generate-ddl: true
+    datasource:
+        url: jdbc:hsqldb:mem:scratchdb
+        driverClassName: org.hsqldb.jdbc.JDBCDriver
+        platform: hsqldb
