@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="issues">
+    <option name="index">
+      <map>
+        <entry key="$PROJECT_DIR$/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/spring-data/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/spring-data/spring-data-acl/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/spring-data/spring-data-domain/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/spring-data/spring-data-service/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/spring-di/aop.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/spring-di/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/spring-di/src/main/java/BeanToInject.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/spring-di/src/main/java/Configuration.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/spring-di/src/main/java/DIApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/spring-di/src/main/java/DIConfiguration.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/spring-di/src/main/java/DomainObject.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/spring-di/src/main/java/za/co/fingerprints/di/BeanToInject.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/spring-di/src/main/java/za/co/fingerprints/di/DIApplication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/spring-di/src/main/java/za/co/fingerprints/di/DIConfiguration.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/spring-di/src/main/java/za/co/fingerprints/di/DomainObject.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/spring-profiles/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/a.dummy">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/agents/cartridges/ses.bounded.context.project/folders/parent/pom.xml.ftl">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/agents/cartridges/ses.bounded.context.rest.server/folders/src/main/java/za/co/discovery/application/${bounded_context_name}RestServerApplication.java.ftl">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/agents/cartridges/ses.bounded.context.rest.server/templates/${entity_name}RestServiceAPI.java.ftl">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/agents/plugins/pdm-persistence-jpa/plugin-spring-abstract-business-domain-object-builder/src/main/java/com/bionosphere/agent/SpringAbstractBusinessDomainObjectBuilder.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/agents/plugins/pdm-persistence-jpa/plugin-spring-data-transfer-object-builder/src/main/java/com/bionosphere/agent/SpringDataTransferObjectBuilder.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/agents/plugins/pdm-persistence-jpa/plugin-spring-rest-interface-object-builder/src/main/java/com/bionosphere/agent/SpringRESTInterfaceObjectBuilder.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/fragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/opt/projects/AlBarakah/al-baraka/srsfxrquestor/services/src/main/java/com/albaraka/srs/forex/config/OAuth2ServerConfiguration.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/opt/projects/AlBarakah/al-baraka/srsfxrquestor/services/src/main/java/com/albaraka/srs/forex/rest/DeviceController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/opt/projects/AlBarakah/al-baraka/srsfxrquestor/services/src/main/resources/application.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/vitality/za.co.discovery.v1.PartyManagement/parent/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/vitality/za.co.discovery.v1.PartyManagement/za.co.discovery.v1.bounded.context.party.management.domain/src/main/java/za/co/discovery/v1/bounded/context/party/management/domain/abstracts/AbstractPerson.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/vitality/za.co.discovery.v1.PartyManagement/za.co.discovery.v1.bounded.context.party.management.domain/src/main/java/za/co/discovery/v1/bounded/context/party/management/domain/concrete/Person.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/vitality/za.co.discovery.v1.PartyManagement/za.co.discovery.v1.bounded.context.party.management.dto/src/main/java/za/co/discovery/v1/bounded/context/party/management/dto/local/PersonDTO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/vitality/za.co.discovery.v1.PartyManagement/za.co.discovery.v1.bounded.context.party.management.rest.server/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/vitality/za.co.discovery.v1.PartyManagement/za.co.discovery.v1.bounded.context.party.management.rest.server/src/main/java/za/co/discovery/v1/bounded/context/party/management/rest/server/provider/PersonRestServiceProvider.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/vitality/za.co.discovery.v1.PartyManagement/za.co.discovery.v1.bounded.context.party.management.rest.server/src/main/resources/config/application.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/vitality/za.co.discovery.v1.PartyManagement/za.co.discovery.v1.bounded.context.party.management.services/src/main/java/za/co/discovery/v1/bounded/context/party/management/services/provider/PersonServiceProvider.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

@@ -6,7 +6,7 @@
     <groupId>co.fingerprintsoft</groupId>
     <artifactId>spring-examples</artifactId>
     <relativePath>../</relativePath>
-    <version>1.2.0.M2</version>
+    <version>1.2.5.RELEASE</version>
   </parent>
   <artifactId>spring-profiles</artifactId>
   <name>spring-profiles</name>

@@ -1,7 +1,9 @@
 spring:
     jpa:
         show-sql: false
-        generate-ddl: true
+        generate-ddl: false
+        hibernate:
+            ddl-auto: none
     datasource:
         url: jdbc:hsqldb:mem:scratchdb
         driverClassName: org.hsqldb.jdbc.JDBCDriver

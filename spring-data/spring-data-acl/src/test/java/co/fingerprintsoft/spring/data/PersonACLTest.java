@@ -13,13 +13,18 @@ import co.fingerprintsoft.spring.data.config.LoadApplication;
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringApplicationConfiguration(classes = LoadApplication.class)
 @TransactionConfiguration(defaultRollback = true)
-public class PersonTest {
+public class PersonACLTest {
 
     @Autowired
     private PersonService service;
 
 
     @Test
+    public void testValidateAclServiceNotNull() {
+        Assert.assertNotNull(service.aclService);
+    }
+
+        @Test
     public void testSavePerson() {
         Person person = new Person();
         service.savePerson(person);

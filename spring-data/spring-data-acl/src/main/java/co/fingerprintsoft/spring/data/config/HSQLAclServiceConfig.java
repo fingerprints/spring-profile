@@ -9,6 +9,7 @@ import org.springframework.context.annotation.Profile;
 import org.springframework.security.acls.domain.EhCacheBasedAclCache;
 import org.springframework.security.acls.jdbc.BasicLookupStrategy;
 import org.springframework.security.acls.jdbc.JdbcMutableAclService;
+import org.springframework.security.acls.model.AclService;
 
 @Configuration
 public class HSQLAclServiceConfig {
@@ -23,7 +24,7 @@ public class HSQLAclServiceConfig {
     BasicLookupStrategy lookupStrategy;
 
     @Bean
-    public JdbcMutableAclService aclService() {
+    public AclService aclService() {
         return new JdbcMutableAclService(dataSource, lookupStrategy, aclCache);
     }
 

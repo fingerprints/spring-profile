@@ -11,7 +11,7 @@ public class PersonService {
     private PersonRepository repository;
 
     @Autowired
-    private MutableAclService aclService;
+    public MutableAclService aclService;
 
     public Person savePerson(Person person) {
         return repository.save(person);

@@ -1,6 +1,7 @@
 package co.fingerprintsoft.spring.profile;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Component;
 
 /**
@@ -12,6 +13,7 @@ import org.springframework.stereotype.Component;
  */
 @Component
 @ConfigurationProperties(prefix = "email")
+@Profile("dev")
 public class Email {
     private String email;
 
