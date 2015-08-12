@@ -27,6 +27,7 @@
     <module>spring-profiles</module>
     <module>spring-data</module>
     <module>spring-di</module>
+    <module>spring-multipart</module>
   </modules>
 
   <profiles>
